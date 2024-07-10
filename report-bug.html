@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Bug</title>
+</head>
+<body>
+    <h1>Report a Bug</h1>
+    <p>Please provide the details of the bug below:</p>
+    <form action="https://github.com/cynsight/grafstate-feedback-private/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D" method="get">
+        <label for="description">Description of the Bug:</label><br>
+        <textarea id="description" name="body" rows="5" cols="50"></textarea><br><br>
+        <label for="steps">Steps to Reproduce:</label><br>
+        <textarea id="steps" name="steps" rows="5" cols="50"></textarea><br><br>
+        <label for="error">Error Message:</label><br>
+        <textarea id="error" name="error" rows="5" cols="50"></textarea><br><br>
+        <label for="code">Grafstate Code:</label><br>
+        <textarea id="code" name="code" rows="5" cols="50"></textarea><br><br>
+        <label for="screenshot">Attach Screenshot:</label><br>
+        <input type="file" id="screenshot" name="screenshot"><br><br>
+        <input type="submit" value="Submit Bug Report">
+    </form>
+</body>
+</html>
